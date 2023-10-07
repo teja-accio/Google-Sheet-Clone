@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    position: sticky;
+    top : 0;
+    background-color: gray;
+    width:fit-content;
+    z-index: 100;
+}
+#header > b{
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px 0px; 
+    background-color: gray; 
+}
+.row{
+    display: flex;
+}
+.row > b,
+.row > div{
+    min-width: 100px;
+    border: 1px solid lightgray;
+    padding: 10px 0px;  
+}
+
+.row > b:first-child{
+    text-align: center;
+    position: sticky;
+    left: 0;
+    background-color: grey;
+}
+#options{
+    padding: 10px;
+    background-color:rgb(229, 225, 225)
+}
+#active-cell{
+    background-color: white;
+    padding: 2px 20px;
+}
+#body{
+    width:fit-content;
+}
